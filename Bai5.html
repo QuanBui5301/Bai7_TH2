@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 5</title>
+</head>
+<body>
+<script>
+    let t = +prompt("Nhap vao so tien gui ban dau")
+    let n = +prompt("Nhap vao lai suat")
+    let month = +prompt("Nhap vao so thang gui")
+    for (let i = 0; i < month; i++) {
+        t = Math.floor(t + t * (n / 100))
+    }
+    document.write(t)
+</script>
+</body>
+</html>
